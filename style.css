@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --background-color: #573824;
+  --surface-color: #F0E8C2;
+
+  --text-color-primary: #291B1A;
+  --text-color-secondary: ##573A37;
+  --text-color-on-bg: #F0E8C2;  
+}
+
+body {
+    background: url('./assets/background-img.png') no-repeat center center;
+    min-height: 100vh;
+}
+
+.coxinha {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+
+  -webkit-box-shadow: 0px 0px 17px -4px rgba(0,0,0,0.74);
+  -moz-box-shadow: 0px 0px 17px -4px rgba(0,0,0,0.74);
+  box-shadow: 0px 0px 17px -4px rgba(0,0,0,0.74);
+
+  outline: 1rem;
+
+}
+
+.content {
+  max-width: 55rem;
+  margin-inline: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem 3rem 3rem 3rem;
+
+/*class-effect*/
+  background: rgba(255, 255, 255, 0.13);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.6px);
+  -webkit-backdrop-filter: blur(3.6px);
+  border: .9px solid rgba(255, 255, 255, 0.12);
+
+  
+}
+
+article h1 {
+  font-size: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  transition: transform .8s;
+}
+
+h1:hover {
+  transform: scale(1.2);
+}
+
+article p {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  max-width: 100%;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.ingredientes h2 {
+  font-size: 1.6rem;
+}
+
+.ingredientes ul li {
+  font-weight: 800;
+}
+
+.ingredientes {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.preparo {
+  margin-inline: auto;
+  max-width: 100%;
+  margin-top: 2rem;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.preparo h2 {
+  text-align: center;
+  font-size: 3rem;
+  transition: transform .8s;
+
+}
+
+h2:hover {
+  transform: scale(1.2);
+  
+}
+
+.preparo button {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 5px;
+  color: white;
+  border: transparent;
+  cursor: pointer;
+  background-color: #573824;
+  transition: background .6s;
+  transition: transform .6s ;
+}
+
+button:hover {
+  background-color: #332216;
+  transform: scale(1.1);
+}
